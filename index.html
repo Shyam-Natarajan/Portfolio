@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--doing this portfolio in Bootstrap-->
-<!--Note: We can give the values  from 1,2,3,4,5 greater than 5 will not work-->
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,14 +11,12 @@
     rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link href="/portfolio/styles.css" type="text/css" rel="stylesheet" />
+  <link href="./styles.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg py-4 text-uppercase border-bottom border-light-subtle sticky-top bg-info">
-    <!--'py' is padding in y axis which is top and bottom with the value of '4', 'text-uppercase' is class in Bootstrap-->
-    <!--<div class="container-fluid"> // it will take entire page as a container-->
-    <div class="container"><!--It will take as container-->
+    <div class="container">
       <a class="navbar-brand fs-3 text-white" href="#">Shyam</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +24,6 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 ">
-          <!--'gap' will give the exact space between the component with our desired value-->
           <li class="nav-item">
             <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
           </li>
@@ -42,25 +36,6 @@
           <li class="nav-item">
             <a class="nav-link text-white" href="#contact">Contact</a>
           </li>
-          <!--<li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li> // example for dropdown menu-->
-          <!--<li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
-        </ul> // example for disable a link-->
-          <!--<form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form> // example for search bar-->
       </div>
     </div>
   </nav>
@@ -71,11 +46,9 @@
           <div class="w-75 m-auto">
             <h1 class="pb-3">Hi, My name is Shyam N</h1>
             <h5 class="pb-4 text-uppercase">
-              I am Oracle DBA at DXC Technology with 1 year of experience.
-              I have skills on Oracle DBA,Sql Server DBA,
-              Python Developer and Web Developer</h5>
+              I am MSSQL DBA at DXC Technology with 2 year of experience.
+              I have skills on Sql Server DBA, and Web Developer</h5>
             <a href="https://wa.me/+919940370891?text= Hi! Shyam !!!" class="btn btn-success btn-lg text-uppercase" target="_blank">Connect with me </a>
-            <!--<button type="button" class="btn btn-success btn-lg text-uppercase">Connect with me</button>-->
           </div>
         </div>
       </div>
@@ -86,15 +59,11 @@
       <div class="row align-items-center">
         <div class="col-md-6">
           <h4 class="pb-3">About me</h4>
-          <p class="pb-3">Working at DXC Technology for 2 years as Oracle DBA. Here, I have fulfilled customer's
-            requirements on time. In the beside, learned SQL Server database administration and have 6 months of
-            experience.</p>
-          <p class="pb-3">Adding to that Certified on Google Cloud and SQL certified associate. Got an appreciation from
-            my client and manager for handling the long hours tasks and solving
-            difficult issues on the database side. </p>
+          <p class="pb-3">Front-End Developer with a background in database administration, having over two years of experience as an MSSQL DBA. Skilled in creating user-centric web applications, building responsive websites, and delivering clean, efficient code to enhance user experience.</p>
+          <p class="pb-3">Seeking to transition into a front-end developer role to contribute to a collaborative team environment by leveraging skills in HTML, CSS, JavaScript, and React JS.</p>
         </div>
         <div class="col-md-6 text-center">
-          <img src="/portfolio/Image/Shyam photo.jpeg" alt="Shyam's Image" class="img-fluid w-75">
+          <img src="./Image/Shyam photo.jpeg" alt="Shyam's Image" class="img-fluid w-75">
         </div>
       </div>
     </div>
@@ -109,7 +78,7 @@
       <div class="row m-auto d-flex justify-content-evenly">
         <div class="col-md-4">
           <div class="card text-center">
-            <img src="/portfolio/Image/html_logo_img.jpg" class="card-img-top w-25 m-auto pt-4" alt="HTML 5 logo">
+            <img src="./Image/html_logo_img.jpg" class="card-img-top w-25 m-auto pt-4" alt="HTML 5 logo">
             <div class="card-body">
               <h5 class="card-title">HTML</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -120,7 +89,7 @@
         </div>
         <div class="col-md-4">
           <div class="card text-center">
-            <img src="/portfolio/Image/CSS_logo_img.jpg" class="card-img-top w-25 m-auto pt-4" alt="CSS logo">
+            <img src="./Image/CSS_logo_img.jpg" class="card-img-top w-25 m-auto pt-4" alt="CSS logo">
             <div class="card-body">
               <h5 class="card-title">CSS</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -131,7 +100,7 @@
         </div>
         <div class="col-md-4">
           <div class="card text-center">
-            <img src="/portfolio/Image/javascript_logo_img.jpg" class="card-img-top w-25 m-auto pt-4"
+            <img src="./Image/javascript_logo_img.jpg" class="card-img-top w-25 m-auto pt-4"
               alt="Javascript logo">
             <div class="card-body">
               <h5 class="card-title">Javascript</h5>
@@ -158,26 +127,16 @@
             <div class="mb-3">
               <label for="InputName" class="form-label">Name</label>
               <input type="text" class="form-control" id="InputName" aria-describedby="NameHelp">
-              <!--<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>-->
             </div>
             <div class="mb-3">
               <label for="Inputmobileno" class="form-label">Mobile Number</label>
               <input type="number" class="form-control" id="InputMobileno" aria-describedby="MobilenoHelp">
-              <!--<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>-->
             </div>
             <div class="mb-3">
               <label for="InputEmail" class="form-label">Email address</label>
               <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
               <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
-            <!--<div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>-->
             <div class="mb-3">
               <label for="exampleFormControlTextarea1" class="form-label">Subject</label>
               <textarea class="form-control" id="InputSubject" rows="3"></textarea>
